@@ -1,0 +1,30 @@
+.jumbotron {
+  background-image: url("https://static.pexels.com/photos/29781/pexels-photo-29781.jpg");
+  min-height: 1000px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+}
+
+.jumbotronrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius:0px;
+}
+
+
+/*jumbotron {
+position: relative;
+background: url("img.url") no-repeat center center;
+width:100%;
+height: 100%;
+background-size: 100% 100%;
+}*/
