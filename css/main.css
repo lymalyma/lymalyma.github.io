@@ -1,14 +1,25 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
 .jumbotron {
-  background-image: url('../images/space.jpeg');
+  /*background-image: url('../images/heart.jpg');*/
+
+  background: #9D50BB; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #9D50BB , #6E48AA); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #9D50BB , #6E48AA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 500px;
+  min-height: 650px;
   background-size: cover;
   text-align: center;
   color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
-  font-family: 'Lora', serif;
+  font-family: 'Gabriela';
+  text-shadow: -2px 2px 5px #222;
 }
 
 .jumbotronrow {
@@ -21,17 +32,43 @@
 .navbar {
     margin-bottom: 0px;
     border-radius: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 #contactme {
   text-align: center;
+  margin-bottom: 10px;
+
 }
 
 .aboutme {
   font-size: 20px;
+  text-align: justify;
 }
 
 body {
   font-family: 'Lora', serif;
-  background-color: #e5ecff;
+  background-color: #e8ebf1;
+  margin-bottom: 80px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+
+.copyright {
+  color: white;
+  margin-top: 13px;
+  text-align: right;
+}
+
+#aboutme {
+  margin-bottom: 50px;
+
 }
