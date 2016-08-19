@@ -1,10 +1,29 @@
-.navbar {
-    margin-bottom: 0px;
-    border-radius:0px;
-}
-
 
 body {
   font-family: 'Lora', serif;
-  background-color: #e5ecff; 
+  background-color: #e8ebf1;
+  margin-bottom: 80px;
+  min-height: 600px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+
+.copyright {
+  color: white;
+  margin-top: 13px;
+  text-align: right;
 }
