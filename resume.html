@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <style>
+    /*.container {
+      background-color: white;
+    }*/
+    table {
+      border-spacing: 10px 50px;
+    }
+
+
+    </style>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,32 +51,100 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
-          <h1>Resume</h1>
-          <br>
+
           <h1>Lymari Montijo</h1>
-          <p>lymari.montijo@gmail.com</p>
+          <a href="mailto:lymari.montijo@gmail.com">
+          <i class="fa fa-envelope fa-lg" aria-hidden="true" style="color:#333;"></i></a>
+          <a href="https://www.linkedin.com/in/lymarimontijo" target="_blank">
+            <i class="fa fa-linkedin-square fa-lg" aria-hidden="true" style="color:#007bb6;"></i></a>
+          <a href="https://github.com/lymalyma" target="_blank">
+            <i class="fa fa-github-square fa-lg" aria-hidden="true" style="color:#333;"></i></a>
+          <a href="https://twitter.com/lemontijo" target="_blank">
+            <i class="fa fa-twitter fa-lg" aria-hidden="true" style="color:#00aced;"></i></a>
+
+
+
 
           <h1>Work Experience</h1>
-          <br>
           <h3>Software Engineering Intern</h3>
-          <h4>Target Corporation</h4>
+          <p class="lead">Target Corporation</p>
           <p>Minneapolis, MN</p>
-          <p>(10 weeks) June 2016 - August 2016</p>
+          <p>June 2016 - August 2016</p>
+
+          <ul>
+            <li>Designed and implemented look-and-feel of internal web application for
+              Networking tools using CSS3 and Bootstrap </li>
+            <li>Implemented responsive navigation bar with customizable drop-down
+               menu items by using embedded Rails templates</li>
+            <li>Developed several Rails’ controllers and views along with the necessary
+              HTTP routes for an internal web application used by other engineering teams
+            </li>
+            <li>Validated and tested Chef automation scripts and tutorial documentation used
+              to train new hires</li>
+          </ul>
 
           <h1>School Projects</h1>
+          <p class="lead">Address Parser</p>
+          <p>Individual Project - Program that reads customer names and multiple addresses from a file.
+            Classifies address parts and stores it in a dictionary. Addresses that appear in slightly
+            different formats are then compared and matched. Points are assigned for different matching
+            criteria and program output is a list of all the customer’s addresses. Python
+          </p>
+
+          <p class="lead">Papillon POS</p>
+          <p> Group Project - Simple Point of Sales application using the Model View Controller design pattern.
+            Responsibilities include designing important classes for main features such as making the app customizable
+            to each restaurant, implemented switching menu looks for lunch and dinner and designed views and
+            functionality for displaying an open check and modifying and deleting menu items from it. Java.
+          </p>
+
           <h1>Independent Projects </h1>
+          <p class="lead">Nordie</p>
+          <p> Web application that can calculate different item prices applying gift cards, coupons and
+            employee discounts and sales tax.
+            Built using HTML, CSS and JavaScript. Hosted on GitHub static pages. </p>
 
           <h1>Education</h1>
+          <h3>University of Texas at San Antonio</h3>
+          <h4>BS in Computer Science <small>GPA 3.47 of 4.0 </small></h4>
+          <p>January 2014 - present</p>
+          <p>Expected Graduation December 2017</p>
+          <p>Relevant Coursework</p>
+          <ul>
+            <li>Data Structures</li>
+            <li>Applications Programming in Java</li>
+            <li>Programming Languages</li>
+            <li>Analysis of Algorithms</li>
+            <li>Software Engineering</li>
+            <li>Systems Programming</li>
+          </ul>
+
+          <p>In Progress this semester</p>
+          <ul>
+            <li>Software Testing &amp; Quality Assurance </li>
+            <li>Project Management</li>
+            <li>Computer Architecture</li>
+            <li>Operating Systems</li>
+          </ul>
+
+          <h3>University of Puerto Rico Mayaguez</h3>
+          <h4>BS in Civil Engineering <small>GPA 3.23 of 4.0</small></h4>
+          <p>January 2008 - June 2012</p>
 
           <h1>Technical Skills</h1>
+          <p>Proficient: <strong>Java, Python, HTML</strong></p>
+          <p>Familiar: <strong>C, JavaScript, Ruby, awk, sed, CSS</strong></p>
+          <p>Technologies: <strong>Git, CLI, gdb, Valgrind, HTTP, Rails, Bootstrap</strong></p>
 
           <h1>Organizations</h1>
+          <p>Society of Women Engineers - Member since September 2015</p>
+          <p>Society of Hispanic Engineers - Member since August 2016</p>
+
 
 
         </div>
       </div>
     </div>
-
 
 
     <footer class="footer">
