@@ -3,13 +3,16 @@ html {
   min-height: 100%;
 }
 
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #faf4fb;
+  margin-bottom: 80px;
+}
 
 .jumbotron {
-  /*background-image: url('../images/heart.jpg');*/
-
-  background: #9D50BB; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #9D50BB , #6E48AA); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #9D50BB , #6E48AA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #5C258D; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +22,7 @@ html {
   color: white;
   position: relative;
   font-family: 'Gabriela';
-  text-shadow: -2px 2px 5px #222;
+  text-shadow: -3px 3px 5px #222;
 }
 
 .jumbotronrow {
@@ -43,15 +46,10 @@ html {
 
 }
 
-.aboutme {
+.aboutme-bio {
   font-size: 20px;
   text-align: justify;
-}
-
-body {
-  font-family: 'Lora', serif;
-  background-color: #e8ebf1;
-  margin-bottom: 80px;
+  font-family: 'Noto Serif', serif;
 }
 
 .footer {
@@ -66,9 +64,115 @@ body {
   color: white;
   margin-top: 13px;
   text-align: right;
+  font-family: 'Montserrat', serif;
+  text-transform: uppercase;
 }
 
 #aboutme {
   margin-bottom: 50px;
+  font-family: 'Gabriela', serif;
+}
 
+.resume-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px 100px 50px 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px #333;
+}
+
+.myname {
+  font-size: 48px;
+  font-family: 'Noto Serif', serif;
+  padding-left: 0px;
+}
+
+.resume-header {
+  font-family: 'Noto Serif', serif;
+  font-size: 25px;
+}
+
+.college {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+
+.work-title {
+   color: #4d4d4d;
+   margin-bottom: 2px;
+}
+
+.contactme {
+  padding-top: 30px;
+}
+
+.contactme-icons {
+  padding: 20px;
+}
+
+
+.resume-page {
+  background: #5C258D; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fab-resume-download {
+  bottom: 0;
+  position: fixed;
+  margin-right: 3.5em;
+  margin-bottom: 3.0em;
+  right: 0px;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 60px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #4389A2;
+  font-size: 1.5em;
+
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(41, 41, 41, .3);
+  -moz-box-shadow: 5px 5px 3px 0px rgba(41, 41, 41, .3);
+  box-shadow: 5px 5px 3px 0px rgba(41, 41, 41, .3);
+}
+
+.fab-resume-download:hover {
+  background-color: #549AB3;
+}
+
+.fab-resume-download > a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+[tooltip]:before {
+  bottom: 25%;
+  font-family: arial;
+  font-weight: 600;
+  border-radius: 2px;
+  background: #585858;
+  color: #fff;
+  content: attr(tooltip);
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px 7px;
+  margin-right: 12px;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+}
+
+[tooltip]:hover:before,
+[tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.resume-content {
+  padding-left: 15px;
 }
