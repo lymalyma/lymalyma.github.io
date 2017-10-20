@@ -49,40 +49,65 @@
                   <i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style="color:#007bb6;"></i></a>
                 <a href="https://github.com/lymalyma" target="_blank">
                   <i class="fa fa-github-square fa-2x" aria-hidden="true" style="color:#333;"></i></a>
-                <a href="https://twitter.com/lemontijo" target="_blank">
-                  <i class="fa fa-twitter fa-2x" aria-hidden="true" style="color:#00aced;"></i></a>
+
               </div>
             </div>
 
             <div class="row">
-              <h3 class="resume-header">Employment</h3>
-              <hr/>
-              <div class="col-xs-4">
-                <p><strong>Software Engineering Intern</strong></p>
-              </div>
-              <div class="text-center col-xs-4">
-                <p class=""><strong>Target Corporation</strong></p>
-              </div>
-              <div class="col-xs-4">
-                <p class="text-right"><strong>Summer 2016</strong></p>
-              </div>
-              <div class="col-xs-12">
-                <ul>
-                  <li>Designed and implemented look-and-feel of internal web application for
-                    Networking tools using CSS3 and Bootstrap</li>
-                  <li>Developed landing webpage for Coaching Services offered by Target’s Engineering
-                    Practices team using CSS3 and HTML</li>
-                  <li>Implemented responsive navigation bar with customizable drop-down
-                     menu items by using embedded Rails templates</li>
-                  <li>Developed several Rails’ controllers and views along with the necessary
-                    HTTP routes for an internal web application used by other engineering teams
-                  </li>
-                  <li>Validated and tested Chef automation scripts and tutorial documentation used
-                    to train new hires
-                  </li>
-                </ul>
-              </div>
-            </div>
+                          <h3 class="resume-header">Employment</h3>
+                          <hr/>
+                          <div class="col-xs-4">
+                            <p><strong>Software Engineering Intern (Data Engineering Team)</strong></p>
+                          </div>
+                          <div class="text-center col-xs-4">
+                            <p class=""><strong>Intuit Inc</strong></p>
+                          </div>
+                          <div class="col-xs-4">
+                            <p class="text-right"><strong>Summer 2017 (12 weeks)</strong></p>
+                          </div>
+                          <div class="col-xs-12">
+                            <ul>
+                              <li>Implemented a YAML file parser class in Scala to refactor class that moves data from
+                                HDFS using Hive and Spark Streaming and transmits messages to a Kafka producer</li>
+                              <li>Researched Datastax Enterprise and Gremlin Query language and designed queries for
+                                large dataset of Customer 360 data</li>
+                              <li>Developed classes for internal Spring Boot API to process data returned from GET
+                                calls using Gremlin queries into a Profile object class, refactored existing
+                                classes by adding YAML configuration files and unit testing</li>
+                              <li>Created a Python script to move data from internal HDFS data store into AWS S3 buckets.</li>
+                              <li>Wrote unit tests for Java and Scala classes using Junit and Mockito</li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <hr/>
+                          <div class="col-xs-4">
+                            <p><strong>Software Engineering Intern (Network Now Team)</strong></p>
+                          </div>
+                          <div class="text-center col-xs-4">
+                            <p class=""><strong>Target Corporation</strong></p>
+                          </div>
+                          <div class="col-xs-4">
+                            <p class="text-right"><strong>Summer 2016 (10 weeks)</strong></p>
+                          </div>
+                          <div class="col-xs-12">
+                            <ul>
+                              <li>Designed and implemented look-and-feel of internal web application for
+                                Networking tools using CSS3 and Bootstrap</li>
+                              <li>Developed landing webpage for Coaching Services offered by Target’s Engineering
+                                Practices team using CSS3 and HTML</li>
+                              <li>Implemented responsive navigation bar with customizable drop-down
+                                 menu items by using embedded Rails templates</li>
+                              <li>Developed several Rails’ controllers and views along with the necessary
+                                HTTP routes for an internal web application used by other engineering teams
+                              </li>
+                              <li>Validated and tested Chef automation scripts and tutorial documentation used
+                                to train new hires
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
 
             <div class="row">
               <h3 class="resume-header">Technical Experience</h3>
@@ -90,25 +115,26 @@
               <div class="resume-content">
                 <h4>School Projects</h4>
                 <!-- <h4>Address Parser</h4> -->
-                <p><strong>Address Parser</strong> - Individual Project - Program that reads customer names and multiple addresses from a file.
-                  Classifies address parts and stores it in a dictionary. Addresses that appear in slightly
-                  different formats are then compared and matched. Points are assigned for different matching
-                  criteria and program output is a list of all the customer’s addresses. Python
-                </p>
+                <p><strong>Library Inventory System</strong> - Individual Project - Spring 2017 <br />Program that reads customer names and multiple addresses from a file.
+                  Application that keeps records of Books and Inventories across different libraries.
+                  Application supports basic SCRUD operations and handles concurrent database transactions.
+                  Built using Java, JavaFX, Java Enterprise Beans and JDBC </p>
+
 
                 <!-- <h4>Papillon POS</h4> -->
-                <p><strong>Papillon POS</strong> - Group Project - Simple Point of Sales application using the Model View Controller design pattern.
-                  Responsibilities include designing important classes for main features such as making the app customizable
-                  to each restaurant, implemented switching menu looks for lunch and dinner and designed views and
-                  functionality for displaying an open check and modifying and deleting menu items from it. Java.
+                <p><strong>Twitter Data Analysis</strong> - Group Project - Spring 2017 <br />
+                  Data analysis project using Twitter’s Streaming API to analyze major sporting event.
+                  Analysis was done using Hadoop, Spark and Hive with small cluster of 4 vms using Openstack.
+                 Analysis included hashtag to country frequency, MapReduce word count and word co-occurrence matrices.
                 </p>
-                <h4>Independent Projects</h4>
-                <!-- <h4>Nordie</h4> -->
-                <p><strong>Nordie</strong> - Web application that can calculate different item prices applying gift cards, coupons and
-                  employee discounts and sales tax.
-                  Built using HTML, CSS and JavaScript. Hosted on GitHub static pages.
-                </p>
-                <p><strong>Online CV</strong> - This website!
+
+                <p><strong>Jammer: Musician Matching Service </strong> - Group Project - Fall 2016 <br />
+                  Web service that matches musicians based on their music instruments and genres preferences, \
+                  complete with friend request system, messaging, user matching cards and a basic matching algorithm.
+                  Wrote integration for messaging service API, wrote various models and templates and dealt
+                  with front-end implementation of the proposed UI designs using HTML, CSS and Bootstrap.
+                  Designed and wrote the matching card system using JavaScript. Written in Python and developed
+                  with the Django development framework.
                 </p>
               </div>
             </div>
@@ -119,7 +145,7 @@
                 <div class="row">
                   <div class="col-xs-6">
                     <p class="work-title"><strong>University of Texas at San Antonio</strong></p>
-                    <p>B.S. in Computer Science <small>GPA 3.47 of 4.0</small></p>
+                    <p>B.S. in Computer Science <small>GPA 3.62 of 4.0</small></p>
                   </div>
                   <div class="col-xs-4 col-xs-offset-2">
                     <p class="work-title text-right"><strong>Expected: Dec 2017</strong></p>
@@ -127,16 +153,11 @@
                   </div>
                 </div>
                 <ul>
-                  <li><em>Relevant Coursework: </em>Data Structures,
-                    Applications Programming in Java, Programming Languages,
-                    Analysis of Algorithms, Software Engineering,
-                    Systems Programming
+                  <li style="list-style: none;"><strong><em>Computer Science Electives</em></strong><br />
+                    <strong>Software Engineering track: </strong>Software Engineering, Project Management, Software Testing &amp; Quality Assurance, Enterprise Software Engineering,
+                    <br /><strong>Data Engineering track: </strong>Cloud and Big Data, Intro to Data Science, Intro to Databases, Project Management
                   </li>
-                  <li><em>In-Progress: </em>
-                    Software Testing &amp; Quality Assurance,
-                    Project Management, Computer Architecture,
-                    Operating Systems
-                  </li>
+
                 </ul>
                 <div class="row">
                   <div class="col-xs-6">
@@ -153,9 +174,8 @@
               <h3 class="resume-header">Technical Skills</h3>
               <hr/>
               <div class="resume-content">
-                <p>Proficient: <strong>Java, Python, HTML</strong></p>
-                <p>Familiar: <strong>C, JavaScript, Ruby, awk, sed, CSS</strong></p>
-                <p>Technologies: <strong>Git, CLI, gdb, Valgrind, HTTP, Rails, Bootstrap</strong></p>
+                <p>Proficient: <strong>Java, Python, C</strong></p>
+                <p>Familiar: <strong>CSS, HTML, Bootrap, Scala, HDFS, Hive, Spark, Django, php</strong></p>
               </div>
             </div>
             <div class="row">
@@ -164,6 +184,7 @@
               <div class="resume-content">
                 <p>Society of Women Engineers - Member since September 2015</p>
                 <p>Society of Hispanic Engineers - Member since August 2016</p>
+                <p>ACM and ACM-W chapters at UTSA - Member since Fall 2015</p>
               </div>
             </div>
           </div> <!-- closes div resume-container -->
